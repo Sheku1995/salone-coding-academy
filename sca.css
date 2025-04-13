@@ -1,0 +1,537 @@
+body {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  background-image: url("images/The\ text\ on\ the\ image\ should\ be\ _Salone\ Coding\ Academy_.\ It\ is\ a\ logo\ that\ i\ want\ to\ use\ on\ my\ coding\ learning\ platform.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 1.8;
+  
+}
+#nav-logo{
+ width: 110px; 
+ height: 60px;
+ margin-left: 3px;
+}
+#navbar{
+  width: 100%;
+  background-color: #030303;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+#nav-list{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.nav-list-items{
+  padding: 14px 14px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.nav-list-items:hover{
+  background-color: #111;
+  color: white;
+}
+#h-1{
+  height: 150px;
+  background-color: #051d08;
+  opacity: 0.9;
+}
+#h1-container {
+  display: block;
+  margin: 90px auto 30px;
+  padding: 20px;
+  max-width: 800px;
+  text-align: center;
+}
+
+h1 {
+  
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;;
+  border-right: .15em solid #4a90e2;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  animation: typing 3s steps(30) 1s forwards, blink-caret .75s step-end infinite;
+}
+
+/* Typing effect */
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+/* Blinking cursor */
+@keyframes blink-caret {
+  50% {
+      border-color: transparent;
+  }
+}
+
+#about{
+  background-color: #051d08;
+  opacity: 0.8;
+  color: white;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#dev-icon{
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  display: block;
+  opacity: 2;
+}
+#about-text{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 20px;
+}
+#about-text h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+#enroll-btn{
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+#courses{
+  background-color: beige;
+  opacity: 0.9;
+  color: black;
+  padding: 20px;
+}
+.course-icon{
+  width: 150px;
+  height: 100px;
+  margin-top: 10px;
+}
+.course-card{
+ width: 290px;
+  height: 350px;
+  border: 2px solid #ccc;
+  border-radius: 10px; 
+  text-align: center;
+  padding: 5px;
+}
+#course-header{
+  text-align: center;
+  margin: 15px 0px;
+}
+
+#courseslist{
+max-width: 500px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, auto);
+grid-gap: 20px;
+justify-content: center;
+align-items: center;
+}
+#react-icon{
+  animation-name: animate-react-icon;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes animate-react-icon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#html-icon{
+  animation-name: animate-html-icon;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes animate-html-icon {
+  0% {
+    transform: translate(0px, -10px);
+  }
+  100% {
+    transform: translate(0px, 18px);
+  }
+}
+#css-icon{
+  animation-name: animate-css-icon;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes animate-css-icon {
+  0% {
+    transform: translate(-20px, 0px);
+  }
+  100% {
+    transform: translate(20px, 0px);
+  }
+}
+#js-icon{
+  animation-name: animate-js-icon;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes animate-js-icon {
+  0% {
+    transform: skew(0deg, 10deg);
+  }
+  100% {
+    transform: skew(10deg, -10deg);
+  }
+}
+#bootstrap-icon{
+  animation-name: animate-bootstrap-icon;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes animate-bootstrap-icon {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#git-icon{
+  animation-name: animate-git-icon;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes animate-git-icon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.expectation-icon{
+  max-width: 160px;
+  display: block;
+  margin: auto;
+  height: 90px;
+  margin: 7px auto 0px;
+}
+.learn-more-btn{
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.expct-card{
+  max-width: 290px;
+    max-height: 345px;
+    text-align: center;
+    padding: 5px;
+}
+#expectations-container{
+  width: 70%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#expct-header{
+  text-align: center;
+  margin: 15px 0px;
+}
+.class-type-card{
+  width: 250px;
+  height: 185px;
+  border: 2px solid #ccc;
+  border-radius: 10px; 
+  text-align: center;
+  padding: 5px;
+}
+#class-type-container{
+  width: 70%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+#how-header{
+  text-align: center;
+  margin: 15px 0px;
+}
+#instructor-section{
+  background-color: #000957;
+  opacity: 0.8;
+  color: white;
+  padding: 20px;
+}
+#instructor{
+  width: 70%;
+  margin: auto;
+}
+#instructor-image{
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  animation-name: animate-instructor-image;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes animate-instructor-image {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+#instructor-name{
+  text-align: center;
+  margin: 15px 0px;
+}
+#instructor-link{
+  color: #D39D55;
+}
+#FAQs{
+  max-width: 650px;
+  margin: auto;
+}
+#contact{
+  background-color: #000957;
+  opacity: 0.8;
+  color: white;
+  padding: 20px;
+}
+#contact-container{
+  max-width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+}
+input, textarea{
+  width: 100%;
+  display: block;
+}
+input[type="text"], input[type="email"]{
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+textarea{
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#contact-submit-btn{
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+}
+#contact-header, #contact-text{
+  text-align: center;
+  margin: 15px 0px;
+}
+#media-container{
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-direction: column;
+}
+.media-links{
+  font-size: 25px;
+}
+footer{
+  text-align: center;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold; 
+  background-color: antiquewhite;
+  padding: 5px;
+}
+@media screen and (max-width: 768px){
+  #courseslist{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+  #expectations-container{
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 15px;
+  }
+  .expct-card{
+    width: 190px;
+    height: 320px;
+  }
+  .class-type-card{
+    width: 190px;
+    height: 250px;
+  }
+  #class-type-container{
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media  screen and (max-width: 576.98px) {
+  body{
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    opacity: 1.5;
+  }
+  #navbar{
+    display: none;
+  }
+  #nav-logo-sm{
+    width: 90px; 
+    height: 50px;
+    margin-left: 1px;
+  }
+  #h1-container {
+    margin-top: 65px;
+  }
+  #about{
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+  }
+  #dev-icon{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+  }
+  #courseslist{
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(6, auto);
+  }
+  #expectations-container{
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 15px;
+  }
+  .expct-card{
+    width: 370px;
+    height: 250px;
+  
+  }
+  #expct-header{
+    font-size: 18px;
+  }
+  .class-type-card{
+    width: 320px;
+    height: 180px;
+  }
+  #class-type-container{
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 15px;
+  }
+  #instructor{
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+  }
+  #contact-container{
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 15px;
+  }
+  #media-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+  }
+  .media-links{
+    font-size: 35px;
+  }
+}
+
