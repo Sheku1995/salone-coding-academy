@@ -424,6 +424,40 @@ footer{
   background-color: antiquewhite;
   padding: 5px;
 }
+@media screen and (max-width: 845px) {
+ #courseslist{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    width: 90%;
+  }
+  .course-card{
+    width: 320px;
+    height: 350px;
+  }
+  #expectations-container{
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 15px;
+  }
+  .expct-card{
+    width: 245px;
+    height: 320px;
+  }
+  .class-type-card{
+    width: 235px;
+    height: 250px;
+  }
+  #class-type-container{
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }  
+  
+}
 @media screen and (max-width: 768px){
   #courseslist{
     grid-template-columns: repeat(2, 1fr);
