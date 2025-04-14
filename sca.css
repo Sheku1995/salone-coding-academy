@@ -386,7 +386,7 @@ align-items: center;
   padding: 20px;
 }
 #contact-container{
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -429,7 +429,6 @@ textarea{
 #media-container{
   margin-top: 25px;
   display: flex;
-  justify-content: flex-start;
   gap: 10px;
   flex-direction: column;
 }
