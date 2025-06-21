@@ -9,14 +9,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 1.8;
-  
 }
-#nav-logo{
- width: 110px; 
- height: 60px;
- margin-left: 3px;
+#nav-logo {
+  width: 110px;
+  height: 60px;
+  margin-left: 3px;
 }
-#navbar{
+#navbar {
   width: 100%;
   background-color: #030303;
   overflow: hidden;
@@ -29,24 +28,24 @@ body {
   align-items: center;
   padding: 15px 0px;
 }
-#nav-list{
+#nav-list {
   display: flex;
   list-style-type: none;
   margin: 0;
   justify-content: flex-end;
   flex-wrap: wrap;
 }
-.nav-list-items{
+.nav-list-items {
   padding: 14px 14px;
   text-decoration: none;
   color: white;
   font-size: 18px;
 }
-.nav-list-items:hover{
+.nav-list-items:hover {
   background-color: #111;
   color: white;
 }
-#h-1{
+#h-1 {
   height: 150px;
   background-color: #051d08;
   opacity: 0.9;
@@ -60,34 +59,34 @@ body {
 }
 
 h1 {
-  
   font-size: 2rem;
   color: white;
-  font-weight: bold;;
-  border-right: .15em solid #4a90e2;
+  font-weight: bold;
+  border-right: 0.15em solid #4a90e2;
   margin: 0 auto;
-  letter-spacing: .1em;
-  animation: typing 3s steps(30) 1s forwards, blink-caret .75s step-end infinite;
+  letter-spacing: 0.1em;
+  animation: typing 3s steps(30) 1s forwards,
+    blink-caret 0.75s step-end infinite;
 }
 
 /* Typing effect */
 @keyframes typing {
   from {
-      width: 0;
+    width: 0;
   }
   to {
-      width: 100%;
+    width: 100%;
   }
 }
 
 /* Blinking cursor */
 @keyframes blink-caret {
   50% {
-      border-color: transparent;
+    border-color: transparent;
   }
 }
 
-#about{
+#about {
   background-color: #051d08;
   opacity: 0.8;
   color: white;
@@ -99,26 +98,26 @@ h1 {
   align-items: center;
   margin: 0 auto;
 }
-#dev-icon{
+#dev-icon {
   width: 400px;
   height: 400px;
   margin: 0 auto;
   display: block;
   opacity: 2;
 }
-#about-text{
+#about-text {
   font-size: 1.2rem;
   line-height: 1.5;
   text-align: justify;
   padding: 20px;
 }
-#about-text h2{
+#about-text h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   text-align: justify;
 }
-#enroll-btn{
-  background-color: #4CAF50;
+#enroll-btn {
+  background-color: #4caf50;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -130,61 +129,61 @@ h1 {
   border-radius: 5px;
   border: none;
 }
-#video-section{
+#video-section {
   width: 100%;
   background-color: #051d08;
   color: aliceblue;
   opacity: 0.9;
 }
-#video-container{
+#video-container {
   width: 85%;
   margin: auto;
 }
-iframe{
+iframe {
   display: block;
   width: 100%;
   height: 500px;
   border: none;
   margin: auto;
 }
-.video-text{
+.video-text {
   text-align: center;
 }
-#courses{
+#courses {
   background-color: beige;
   opacity: 0.9;
   color: black;
   padding: 20px;
 }
-.course-icon{
+.course-icon {
   width: 150px;
   height: 100px;
   margin-top: 10px;
 }
-.course-card{
- width: 290px;
+.course-card {
+  width: 290px;
   height: 350px;
   border: 2px solid #ccc;
-  border-radius: 10px; 
+  border-radius: 10px;
   text-align: center;
   padding: 5px;
 }
-#course-header{
+#course-header {
   text-align: center;
   margin: 15px 0px;
 }
 
-#courseslist{
-max-width: 500px;
-margin: auto;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(2, auto);
-grid-gap: 20px;
-justify-content: center;
-align-items: center;
+#courseslist {
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
-#react-icon{
+#react-icon {
   animation-name: animate-react-icon;
   animation-duration: 10s;
   animation-fill-mode: forwards;
@@ -199,7 +198,7 @@ align-items: center;
     transform: rotate(360deg);
   }
 }
-#html-icon{
+#html-icon {
   animation-name: animate-html-icon;
   animation-duration: 3s;
   animation-fill-mode: forwards;
@@ -215,7 +214,7 @@ align-items: center;
     transform: translate(0px, 18px);
   }
 }
-#css-icon{
+#css-icon {
   animation-name: animate-css-icon;
   animation-duration: 3s;
   animation-fill-mode: forwards;
@@ -231,7 +230,7 @@ align-items: center;
     transform: translate(20px, 0px);
   }
 }
-#js-icon{
+#js-icon {
   animation-name: animate-js-icon;
   animation-duration: 3s;
   animation-fill-mode: forwards;
@@ -247,7 +246,7 @@ align-items: center;
     transform: skew(10deg, -10deg);
   }
 }
-#bootstrap-icon{
+#bootstrap-icon {
   animation-name: animate-bootstrap-icon;
   animation-duration: 3s;
   animation-fill-mode: forwards;
@@ -263,7 +262,7 @@ align-items: center;
     transform: scale(1);
   }
 }
-#git-icon{
+#git-icon {
   animation-name: animate-git-icon;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -279,15 +278,15 @@ align-items: center;
     transform: rotate(360deg);
   }
 }
-.expectation-icon{
+.expectation-icon {
   max-width: 160px;
   display: block;
   margin: auto;
   height: 90px;
   margin: 7px auto 0px;
 }
-.learn-more-btn{
-  background-color: #4CAF50;
+.learn-more-btn {
+  background-color: #4caf50;
   color: white;
   padding: 5px;
   text-align: center;
@@ -299,13 +298,13 @@ align-items: center;
   border-radius: 5px;
   border: none;
 }
-.expct-card{
+.expct-card {
   max-width: 290px;
-    max-height: 345px;
-    text-align: center;
-    padding: 5px;
+  max-height: 345px;
+  text-align: center;
+  padding: 5px;
 }
-#expectations-container{
+#expectations-container {
   width: 70%;
   margin: 20px auto;
   display: grid;
@@ -314,40 +313,40 @@ align-items: center;
   align-items: center;
   justify-content: center;
 }
-#expct-header{
+#expct-header {
   text-align: center;
   margin: 15px 0px;
 }
-.class-type-card{
+.class-type-card {
   width: 250px;
   height: 185px;
   border: 2px solid #ccc;
-  border-radius: 10px; 
+  border-radius: 10px;
   text-align: center;
   padding: 5px;
 }
-#class-type-container{
+#class-type-container {
   width: 70%;
   margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
-#how-header{
+#how-header {
   text-align: center;
   margin: 15px 0px;
 }
-#instructor-section{
+#instructor-section {
   background-color: #000957;
   opacity: 0.8;
   color: white;
   padding: 20px;
 }
-#instructor{
+#instructor {
   width: 70%;
   margin: auto;
 }
-#instructor-image{
+#instructor-image {
   display: block;
   width: 200px;
   height: 200px;
@@ -368,48 +367,50 @@ align-items: center;
     transform: scale(0.8);
   }
 }
-#instructor-name{
+#instructor-name {
   text-align: center;
   margin: 15px 0px;
 }
-#instructor-link{
-  color: #D39D55;
+#instructor-link {
+  color: #d39d55;
 }
-#FAQs{
+#FAQs {
   max-width: 650px;
   margin: auto;
 }
-#contact{
+#contact {
   background-color: #000957;
   opacity: 0.8;
   color: white;
   padding: 20px;
 }
-#contact-container{
+#contact-container {
   max-width: 900px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 25px;
 }
-input, textarea{
+input,
+textarea {
   width: 100%;
   display: block;
 }
-input[type="text"], input[type="email"]{
+input[type="text"],
+input[type="email"] {
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-textarea{
+textarea {
   padding: 10px;
   margin: 5px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-#contact-submit-btn{
-  background-color: #4CAF50;
+#contact-submit-btn {
+  background-color: #4caf50;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -422,21 +423,22 @@ textarea{
   border: none;
   margin-bottom: 15px;
 }
-#contact-header, #contact-text{
+#contact-header,
+#contact-text {
   text-align: center;
   margin: 15px 0px;
 }
-#media-container{
+#media-container {
   margin-top: 25px;
   display: flex;
   gap: 10px;
   flex-direction: column;
 }
-.media-links{
+.media-links {
   font-size: 25px;
 }
-#enroll-btn2{
-  background-color: #4CAF50;
+#enroll-btn2 {
+  background-color: #4caf50;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -470,68 +472,98 @@ textarea{
     transform: scale(1);
   }
 }
-footer{
+#services {
+  background-color: #000957;
+  opacity: 0.8;
+  color: white;
+  padding: 20px;
+}
+.service-card {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+#services-cards-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+footer {
   text-align: center;
   font-size: large;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold; 
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
   background-color: antiquewhite;
   padding: 5px;
 }
-@media screen and (max-width: 845px) {
- #courseslist{
+@media screen and (max-width: 896px) {
+  #courseslist {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
     width: 90%;
   }
-  .course-card{
+  .course-card {
     width: 320px;
     height: 350px;
   }
-  #expectations-container{
+  #expectations-container {
     width: 90%;
     margin: 20px auto;
     grid-template-columns: repeat(3, auto);
     grid-gap: 15px;
   }
-  .expct-card{
+  .expct-card {
     width: 245px;
     height: 320px;
   }
-  .class-type-card{
+  .class-type-card {
     width: 235px;
     height: 250px;
   }
-  #class-type-container{
+  #class-type-container {
     width: 90%;
     margin: 20px auto;
     grid-template-columns: repeat(3, auto);
     grid-gap: 15px;
     justify-content: center;
     align-items: center;
-  }  
-  
+  }
+  #services-cards-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
 }
-@media screen and (max-width: 768px){
-  #courseslist{
+@media screen and (max-width: 768px) {
+  #courseslist {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
   }
-  #expectations-container{
+  #expectations-container {
     width: 90%;
     margin: 20px auto;
     grid-template-columns: repeat(3, auto);
     grid-gap: 15px;
   }
-  .expct-card{
+  .expct-card {
     width: 190px;
     height: 320px;
   }
-  .class-type-card{
+  .class-type-card {
     width: 190px;
     height: 250px;
   }
-  #class-type-container{
+  #class-type-container {
     width: 90%;
     margin: 20px auto;
     grid-template-columns: repeat(3, auto);
@@ -539,94 +571,107 @@ footer{
     justify-content: center;
     align-items: center;
   }
-  iframe{
+  iframe {
     height: 400px;
   }
+  #services-cards-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
 }
-@media  screen and (max-width: 576.98px) {
-  body{
+@media screen and (max-width: 576.98px) {
+  body {
     background-repeat: repeat;
     background-attachment: scroll;
     background-size: contain;
     opacity: 1.5;
   }
-  #navbar{
+  #navbar {
     display: none;
   }
-  #nav-logo-sm{
-    width: 90px; 
+  #nav-logo-sm {
+    width: 90px;
     height: 50px;
     margin-left: 1px;
   }
   #h1-container {
     margin-top: 65px;
   }
-  #about{
+  #about {
     grid-template-columns: 1fr;
     grid-gap: 20px;
     padding: 10px;
   }
-  #dev-icon{
+  #dev-icon {
     width: 300px;
     height: 300px;
     display: block;
     margin: auto;
   }
-  #courseslist{
+  #courseslist {
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(6, auto);
   }
-  #expectations-container{
+  #expectations-container {
     width: 90%;
     margin: auto;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(3, auto);
     grid-gap: 15px;
   }
-  .expct-card{
+  .expct-card {
     width: 370px;
     height: 250px;
-  
   }
-  #expct-header{
+  #expct-header {
     font-size: 18px;
   }
-  .class-type-card{
+  .class-type-card {
     width: 320px;
     height: 180px;
   }
-  #class-type-container{
+  #class-type-container {
     width: 80%;
     margin: auto;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(3, auto);
     grid-gap: 15px;
   }
-  #instructor{
+  #instructor {
     padding: 10px;
     width: 90%;
     margin: auto;
   }
-  #contact-container{
+  #contact-container {
     width: 90%;
     margin: auto;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(2, auto);
     grid-gap: 15px;
   }
-  #media-container{
+  #media-container {
     margin-top: 25px;
     display: flex;
     justify-content: center;
     gap: 15px;
     flex-direction: row;
   }
-  .media-links{
+  .media-links {
     font-size: 35px;
   }
-  iframe{
+  iframe {
     width: 100%;
     height: 300px;
   }
+  #services-cards-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+  }
 }
-
